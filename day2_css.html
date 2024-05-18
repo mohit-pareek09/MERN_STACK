@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>next page</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+
+
+        a:link{
+            color: rgb(60, 6, 237);
+        }
+
+        a:hover {
+         color: aqua;
+         text-decoration: underline;  
+         background-color: black; 
+        }
+        
+        a:visited{
+            color: rgb(23, 243, 60); 
+        }
+
+
+        tr {
+            background-color: aquamarine;
+            color: black;
+            
+        }
+        tr:nth-child(even) {
+                background-color: chartreuse;
+            }
+        td:hover{
+            background-color: brown;
+        }
+
+        h3,h4{
+            color: rgb(40, 13, 246);
+        }
+
+        form {
+            background-color: rgb(163, 117, 31);
+            text-align: center;
+            border: 4px solid black;
+            border-radius: 5px;
+            border-style:dashed;
+        }
+
+        body {
+            background-image: url('https://imgs.search.brave.com/Qxi08EuLhI3y_Sglx_l2357rfP0a9nIGTL7aRzxdHrU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hbml5/dWtpLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMS8wNi9h/bml5dWtpLXNhdG9y/dV9nb2pvLTE1Lmpw/Zw');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;        
+        }
+        p{
+            text-align: center;
+            text-decoration:underline;
+            font-size: larger;
+            color: antiquewhite;
+        }
+        ol.anime{
+            color: azure;
+            list-style-type: upper-alpha;
+
+        }
+        td,th{
+           border: 3px solid black;
+           padding: 5px;
+        }
+        th{color: brown;
+        background-color: burlywood;}
+        table{
+            border: 3px solid black;
+        }
+    </style>
+</head>
+
+<body>
+   <p>my name is poem wallah!!!</p> 
+    <table>
+        <tr>
+            <th>name</th>
+            <th>age</th>
+            <th>gender</th>
+        </tr>
+        <tr>
+            <td>mohit</td>
+            <td>21</td>
+            <td>male</td>
+        </tr>
+        <tr>
+            <td>ruchi</td>
+            <td>25</td>
+            <td>female</td>
+        </tr>
+        <tr>
+            <td>ruchi</td>
+            <td>25</td>
+            <td>female</td>
+        </tr>
+        <tr>
+            <td>ruchi</td>
+            <td>25</td>
+            <td>female</td>
+        </tr>
+    </table>
+
+    <ol class="cartoon">
+        <li>doremon</li>
+        <li>pikachhu</li>
+        <li>ryucando</li>
+        <li>power ranger</li>
+    </ol>
+    <ol class="anime">
+        <li>goku</li>
+        <li>sakura</li>
+        <li>naruto</li>
+        <li>katashi hatake</li>
+    </ol>
+
+
+
+
+    <h3>Now we make form for fav. anime character </h3>
+    <form action="https://github.com/mohit-pareek09/MERN_STACK">
+        <br>
+        <br>
+        <label for="a1">fav. anime</label>
+        <input type="text" id="a1" name="pika"><br>
+        <label for="a2">fav. anime character in your fav. anime</label>
+        <input type="text" id="a2"><br><br>
+        <h4>select any one </h4>
+        <input type="radio" id="a3" name="f">
+        <label for="a3">naruto uzumaki</label><br>
+        <input type="radio" id="a4" name="f">
+        <label for="a4">minoto namakaze</label><br>
+        <input type="radio" id="a5" name="f">
+        <label for="a5">satoro goju</label><br><br>
+
+        <label for="g1">E-MAIL:</label>
+        <input type="email" name="gamil" id="g1"><br>
+
+        <label for="p1">password</label>
+        <input type="password" name="pass" id="p1"><br><br>
+        <input type="submit" value="submit">
+        <br><br>
+    </form>
+    <a href="https://chatgpt.com/c/9c2c714c-4aca-440c-b377-7f30a9b3c630"> link no.1 </a><br>
+<!--     
+
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            background-color: #555;
+            color: white;
+            padding: 1em;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        article, aside {
+            padding: 1em;
+            margin: 1em;
+            border: 1px solid #ddd;
+        }
+        article {
+            flex: 2 1 60%;
+        }
+        aside {
+            flex: 1 1 30%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+        <p>Welcome to my website!</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <article>
+            <header>
+                <h2>Article Title</h2>
+                <p>Posted on May 18, 2024</p>
+            </header>
+            <section>
+                <h3>Introduction</h3>
+                <p>This is the introduction section of the article. It provides an overview of the content.</p>
+            </section>
+            <section>
+                <h3>Main Content</h3>
+                <p>This section contains the main content of the article. It covers the topic in detail.</p>
+            </section>
+            <section>
+                <h3>Conclusion</h3>
+                <p>This is the conclusion section. It summarizes the key points discussed in the article.</p>
+            </section>
+        </article>
+
+        <aside>
+            <h2>Related Articles</h2>
+            <ul>
+                <li><a href="#article1">Related Article 1</a></li>
+                <li><a href="#article2">Related Article 2</a></li>
+                <li><a href="#article3">Related Article 3</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p> &copy; 2024 My Website. All rights reserved.</p>
+    </footer> -->
+
+   
+</body>
+
+</html>
